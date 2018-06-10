@@ -601,13 +601,13 @@ namespace inti2008.Web
                 //generera betallänk
                 var paySonLink =
                     String.Format(
-                        "https://www.payson.se//SendMoney/?De={0}&Se=folkesson%40gmail.com&Cost=100%2c00&ShippingAmount=0%2c00&Gr=1",
+                        "https://www.payson.se//SendMoney/?De={0}&Se=jacizd%40hotmail.com&Cost=100%2c00&ShippingAmount=0%2c00&Gr=1",
                         Server.UrlEncode(team.GUID.ToString()));
 
                 var payPalLink =
                     String.Format("<form action=\"https://www.paypal.com/cgi-bin/webscr\" method=\"post\">" +
                                   "<input type=\"hidden\" name=\"cmd\" value=\"_xclick\">" +
-                                  "<input type=\"hidden\" name=\"business\" value=\"folkesson@gmail.com\">" +
+                                  "<input type=\"hidden\" name=\"business\" value=\"jacizd@hotmail.com\">" +
                                   "<input type=\"hidden\" name=\"item_name\" value=\"{0}\">" +
                                   "<input type=\"hidden\" name=\"item_number\" value=\"{1}\">" +
                                   "<input type=\"hidden\" name=\"amount\" value=\"100.00\">" +
@@ -624,7 +624,7 @@ namespace inti2008.Web
 
                 var payPalLink2 =
                     String.Format(
-                        "https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=folkesson@gmail.com&item_name={0}&item_number={1}&amount=100.00&shipping=0.00&no_shipping=1&no_note=1&currency_code=SEK&tax=0.00&lc=SE&bn=PP-BuyNowBF",
+                        "https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=jacizd@hotmail.com&item_name={0}&item_number={1}&amount=100.00&shipping=0.00&no_shipping=1&no_note=1&currency_code=SEK&tax=0.00&lc=SE&bn=PP-BuyNowBF",
                         team.Name, team.GUID);
 
 
