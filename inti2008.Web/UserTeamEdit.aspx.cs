@@ -629,10 +629,10 @@ namespace inti2008.Web
 
 
                 //payson och paypal
-                //lblPaymentInfo.Text =
-                //    String.Format(
-                //        "<p>Betala för ditt lag</p><p>När du betalt kommer ditt lag markeras som betalt på denna sidan, och betallänken försvinner. Eftersom detta kräver manuellt ingripande från den ideellt arbetande personalen kan det ta ett par dagar.</p><p><a target=\"_blank\" href=\"{0}\">Klicka här för att betala via payson</a></p><p>Eller klicka på knappen nedan för att betala via Paypal</p><p><a target=\"_blank\" href=\"{1}\"><img border=\"0\" src=\"https://www.paypal.com/en_US/i/btn/btn_paynow_SM.gif\" /></a></p>",
-                //        paySonLink, payPalLink2);
+                lblPaymentInfo.Text =
+                    String.Format(
+                        "<p>Betala för ditt lag</p><p>När du betalt kommer ditt lag markeras som betalt på denna sidan, och betallänken försvinner. Eftersom detta kräver manuellt ingripande från den ideellt arbetande personalen kan det ta ett par dagar.</p><p><a target=\"_blank\" href=\"{0}\">Klicka här för att betala via payson</a></p><p>Eller klicka på knappen nedan för att betala via Paypal</p><p><a target=\"_blank\" href=\"{1}\"><img border=\"0\" src=\"https://www.paypal.com/en_US/i/btn/btn_paynow_SM.gif\" /></a></p>",
+                        paySonLink, payPalLink2);
 
                 //Payson only
                 lblPaymentInfo.Text =
